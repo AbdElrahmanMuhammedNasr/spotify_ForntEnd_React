@@ -3,7 +3,7 @@ const Types =(props)=>{
     return(
         <div className="card"
              style={{
-                 width: "31rem",
+                 width: "25vw",
                  margin:'10px ',
                  backgroundColor:'transparent',
                  cursor:'pointer',
@@ -15,7 +15,7 @@ const Types =(props)=>{
 
              }}
         >
-            <h3 style={{color:'white', margin:'auto'}}>{props.Types.type}</h3>
+            <h3 style={{color:'white', margin:'10vh auto'}}>{props.Types.type}</h3>
         </div>
     )
 }

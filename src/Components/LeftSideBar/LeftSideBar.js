@@ -12,49 +12,56 @@ class LeftSideBar  extends Component{
                 display:'block'
 
             }}>
-                <input  className='form-control'  placeholder='Search'/>
                 <div style={{margin:'50px 0px'}}>
-                    <h3 style={{color:'white'}}>Main</h3>
+                    <h3 style={{color:'white'}} >Main</h3>
+                    <section style={{padding:'0px 20px'}}>
 
-                    <NavLink to={{pathname:'/home'}} className=" btn btn "    >
-                        <span style={{color:'white'}}>Home</span>
-                    </NavLink>
+                        <NavLink to={{pathname:'/home'}}    >
+                            <span style={{color:'white'}} className="d-block">Home</span>
+                        </NavLink>
 
-                    <NavLink to={{pathname:'/home/browse'}} className=" btn btn"    >
-                        <span style={{color:'white'}}>Browse</span>
-                    </NavLink>
+                        <NavLink to={{pathname:'/home/browse'}}    >
+                            <span style={{color:'white'}} className="d-block">Browse</span>
+                        </NavLink>
+
+                        <NavLink to={{pathname:'/radio'}}   >
+                            <span style={{color:'white'}} className="d-block">Radio</span>
+                        </NavLink>
+                    </section>
 
 
 
-                    <NavLink to={{pathname:'/radio'}} className="   btn btn "    >
-                        <span style={{color:'white'}}>Radio</span>
-                    </NavLink>
                 </div>
 
 
 
                 <div style={{margin:'50px 0px'}}>
-                    <h3 style={{color:'white'}}>Your Library</h3>
-                    <NavLink to={{pathname:'/forYou'}} className="   btn btn"    >
-                        <span style={{color:'white'}}>For You</span>
+                    <h3 style={{color:'white'}} >Your Library</h3>
+
+                    <section style={{padding:'0px 20px'}}>
+
+                    <NavLink to={{pathname:'/forYou'}}   >
+                        <span style={{color:'white'}} className="d-block">For You</span>
                     </NavLink>
 
-                    <NavLink to={{pathname:'/recently'}} className="   btn btn "    >
-                        <span style={{color:'white'}}>Recently Played</span>
+                    <NavLink to={{pathname:'/recently'}}  >
+                        <span style={{color:'white'}} className="d-block">Recently Played</span>
                     </NavLink>
 
-                    <NavLink to={{pathname:'/LikedSong'}} className="   btn btn "    >
-                        <span style={{color:'white'}}>Liked Songs</span>
+                    <NavLink to={{pathname:'/LikedSong'}}  >
+                        <span style={{color:'white'}} className="d-block">Liked Songs</span>
                     </NavLink>
 
-                    <NavLink to={{pathname:'/Albums'}} className="   btn btn "    >
-                        <span style={{color:'white'}}>Albums</span>
+                    <NavLink to={{pathname:'/Albums'}}  >
+                        <span style={{color:'white'}} className="d-block" >Albums</span>
                     </NavLink>
 
 
-                    <NavLink to={{pathname:'/Artist'}} className="   btn btn "    >
-                        <span style={{color:'white'}}>Artist</span>
+                    <NavLink to={{pathname:'/Artist'}}  >
+                        <span style={{color:'white'}} className="d-block">Artist</span>
                     </NavLink>
+                </section>
+                   
 
                 </div>
 
@@ -62,77 +69,24 @@ class LeftSideBar  extends Component{
 
 
                 <div style={{margin:'50px 0px'}}>
-                    <h3 style={{color:'white'}}>PlayLists</h3>
+                    <h3 style={{color:'white'}} className="d-block">PlayLists</h3>
+                    <section style={{padding:'0px 20px'}}>
 
-                    <NavLink to={{pathname:'/element'}} className="   btn btn "    >
-                        <span style={{color:'white'}}>English</span>
-                    </NavLink>
+                        <NavLink to={{pathname:'/element'}}  >
+                            <span style={{color:'white'}} className="d-block">English</span>
+                        </NavLink>
 
-                    <NavLink to={{pathname:'/Artist'}} className="   btn btn "    >
-                        <span style={{color:'white'}}>Arabic</span>
+                        <NavLink to={{pathname:'/Artist'}}  >
+                            <span style={{color:'white'}} className="d-block">Arabic</span>
+                        </NavLink>
+                        <NavLink to={{pathname:'/element'}}  >
+                            <span style={{color:'white'}} className="d-block">English</span>
                     </NavLink>
-                    <NavLink to={{pathname:'/element'}} className="   btn btn "    >
-                        <span style={{color:'white'}}>English</span>
-                    </NavLink>
+                    </section>
+
                 </div>
 
-                {/*<NavLink to={{pathname:'/Artist'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>Arabic</span>*/}
-                {/*</NavLink>*/}
-                {/*<NavLink to={{pathname:'/element'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>English</span>*/}
-                {/*</NavLink>*/}
-
-                {/*<NavLink to={{pathname:'/Artist'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>Arabic</span>*/}
-                {/*</NavLink>*/}
-                {/*<NavLink to={{pathname:'/element'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>English</span>*/}
-                {/*</NavLink>*/}
-
-                {/*<NavLink to={{pathname:'/Artist'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>Arabic</span>*/}
-                {/*</NavLink>*/}
-                {/*<NavLink to={{pathname:'/element'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>English</span>*/}
-                {/*</NavLink>*/}
-                {/*<NavLink to={{pathname:'/element'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>English</span>*/}
-                {/*</NavLink>*/}
-
-                {/*<NavLink to={{pathname:'/Artist'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>Arabic</span>*/}
-                {/*</NavLink>*/}
-                {/*<NavLink to={{pathname:'/element'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>English</span>*/}
-                {/*</NavLink>*/}
-                {/**/}
-                {/*<NavLink to={{pathname:'/Artist'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>Arabic</span>*/}
-                {/*</NavLink>*/}
-                {/*<NavLink to={{pathname:'/element'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>English</span>*/}
-                {/*</NavLink>*/}
-
-                {/*<NavLink to={{pathname:'/Artist'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>Arabic</span>*/}
-                {/*</NavLink>*/}
-                {/*<NavLink to={{pathname:'/element'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>English</span>*/}
-                {/*</NavLink>*/}
-
-                {/*<NavLink to={{pathname:'/Artist'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>Arabic</span>*/}
-                {/*</NavLink>*/}
-                {/*<NavLink to={{pathname:'/element'}} className="   btn btn "    >*/}
-                {/*    <span style={{color:'white'}}>English</span>*/}
-                {/*</NavLink>*/}
-
-
-
-
-
-
+                
 
             </div>
         )

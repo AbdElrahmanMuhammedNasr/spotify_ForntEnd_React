@@ -7,11 +7,12 @@ import TheHome from "./TheHome/TheHome";
 class Home extends Component{
         render() {
             return(
-                <div className='row'>
-                    <section className='col-sm-2'>
-                        <LeftSideBar/>
-                    </section>
-                    <section className='col-sm-10'>
+                <div className='row' style={{
+                    height:'80vh',
+                    overflowY:'scroll'
+                }}>
+                   
+                    <section>
                         <Switch>
                             <Route path='/home' exact component={TheHome}/>
                             <Route path='/home/browse' component={Browse}/>

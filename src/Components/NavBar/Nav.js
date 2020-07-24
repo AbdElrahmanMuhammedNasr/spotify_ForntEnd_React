@@ -20,6 +20,8 @@ class Nav extends Component{
                             </NavLink>
                         </li>
                     </ul>
+
+                 
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
                             <NavLink
@@ -31,6 +33,16 @@ class Nav extends Component{
 
                         </li>
                     </ul>
+
+                    <ul className="navbar-nav m-auto">
+                        <li className="nav-item">
+                         <input style={{
+                             backgroundColor:'transparent',
+                             color:"white",
+                         }}  className='form-control'  placeholder='Search'/>
+                        </li>
+                    </ul>
+
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item mr-3">
                             <NavLink
@@ -41,7 +53,7 @@ class Nav extends Component{
                                 }}>
 
                                 <span>
-                                    <h3>AbdElrahman Nasr</h3>
+                                    <h5>AbdElrahman Nasr</h5>
                                 </span>
 
                             </NavLink>
