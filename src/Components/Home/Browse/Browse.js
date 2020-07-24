@@ -1,7 +1,7 @@
 import React,{Component} from "react";
-import SongsCard from "./SongsCard/SongsCard";
+import SongsCard from "../../Ui/SongsCard/SongsCard";
 import profile from "./1.jpg";
-import Types from "./SongsType/SongsType";
+import Types from "../../Ui/SongsType/SongsType";
 
 class Browse extends Component{
     state ={

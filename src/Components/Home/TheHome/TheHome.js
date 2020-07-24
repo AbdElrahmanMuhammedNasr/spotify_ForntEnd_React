@@ -1,7 +1,6 @@
 import React,{Component} from "react";
 import profile from "./1.jpg";
-import SongsCard from "../Browse/SongsCard/SongsCard";
-import Types from "../Browse/SongsType/SongsType";
+import SongsCard from "../../Ui/SongsCard/SongsCard";
 
 class TheHome extends Component{
     state ={
