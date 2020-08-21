@@ -33,7 +33,7 @@ class TheHome extends Component{
     }
     render() {
         return(
-            <div style={{padding:'0px 30px'}}>
+            <div style={{}}>
                 <h1 style={{color:'white', fontSize:'60px'}}>Home</h1>
 
                 <br/><br/>

@@ -7,38 +7,37 @@ class Browse extends Component{
     state ={
         SondsList :[
             {
-                image:profile,
-            name:'Arabic Music',
+            image:profile,
+            name:'Arabic Music1',
             dic:'like a sea',
             follower:'2000'
             },{
                 image:profile,
-
-                name:'Englih Music',
+                name:'Englih Music2',
                 dic:'like a war',
                 follower:'20'
             },{
                 image:profile,
 
-                name:'Arabic Music',
+                name:'Arabic Music3',
                 dic:'like a sea',
                 follower:'2000'
             },{
                 image:profile,
 
-                name:'Arabic Music',
+                name:'Arabic Music4',
                 dic:'like a sea',
                 follower:'2000'
             },{
                 image:profile,
 
-                name:'Arabic Music',
+                name:'Arabic Music5',
                 dic:'like a sea',
                 follower:'2000'
             },{
                 image:profile,
 
-                name:'Arabic Music',
+                name:'Arabic Music6',
                 dic:'like a sea',
                 follower:'2000'
             },
@@ -48,14 +47,14 @@ class Browse extends Component{
             {type:'Rab', image:profile},
             {type:'Arabic', image:profile},
             {type:'workout', image:profile},
-            {type:'Music', image:profile},
-            {type:'Rab', image:profile},
-            {type:'Music', image:profile},
-            {type:'Rab', image:profile},
-            {type:'Arabic', image:profile},
-            {type:'workout', image:profile},
-            {type:'Music', image:profile},
-            {type:'Rab', image:profile},
+            {type:'Music1', image:profile},
+            {type:'Rab1', image:profile},
+            {type:'Music2', image:profile},
+            {type:'Rab3', image:profile},
+            {type:'Arabic4', image:profile},
+            {type:'workout5', image:profile},
+            {type:'Music6', image:profile},
+            {type:'Rab7', image:profile},
 
         ]
     }
@@ -72,7 +71,7 @@ class Browse extends Component{
                     {
                         this.state.SondsList.map(ele=>{
                             return(
-                                <SongsCard card={ele} />
+                                <SongsCard card={ele}  key={ele.name}/>
                             );
                         })
                     }
@@ -85,7 +84,7 @@ class Browse extends Component{
                     {
                         this.state.Types.map(ele=>{
                             return(
-                                <Types Types={ele} />
+                                <Types Types={ele}  key={ele.type}/>
                             );
                         })
                     }

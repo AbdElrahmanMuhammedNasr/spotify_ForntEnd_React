@@ -6,6 +6,7 @@ class BandList extends Component{
          Songs :[
             {
                 number:1,
+                songLink:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
                 name:'Drag',
                 artist:'Tamer',
                 album:'Thander',
@@ -14,6 +15,7 @@ class BandList extends Component{
             },
             {
                 number:2,
+                songLink:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
                 name:'Drag',
                 artist:'Tamer',
                 album:'Darg',
@@ -22,6 +24,7 @@ class BandList extends Component{
             },
             {
                 number:3,
+                songLink:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
                 name:'Drag',
                 artist:'Ali',
                 album:'Thander',
@@ -29,6 +32,8 @@ class BandList extends Component{
                 time:'3:20'
             },{
                  number:4,
+                 songLink:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+
                  name:'Drag',
                  artist:'Tamer',
                  album:'Darg',
@@ -37,6 +42,8 @@ class BandList extends Component{
              },
              {
                  number:5,
+                 songLink:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+
                  name:'Drag',
                  artist:'Ali',
                  album:'Thander',
@@ -54,13 +61,13 @@ class BandList extends Component{
                     <section style={{position:'absolute', top:'15vh', left:'36%', right:'40%'}} >
                         <h3 className='text-center' style={{color:'gold'}}>Tamer Ali</h3>
                         <h5 className='text-center' style={{color:'white'}}>By Spotify - check out Tamer videos and new songs </h5>
-                        <div className='row'>
-                            <button style={{margin:'20px',width:'150px', borderRadius:'20px'}} className='btn btn-success col' > Play </button>
-                            <button style={{margin:'20px',width:'150px', borderRadius:'20px'}} className='btn btn-success col' > Follow</button>
-                        </div>
+                        {/*<div className='row'>*/}
+                        {/*    <button style={{margin:'20px',width:'150px', borderRadius:'20px'}} className='btn btn-success col' > Play </button>*/}
+                        {/*    <button style={{margin:'20px',width:'150px', borderRadius:'20px'}} className='btn btn-success col' > Follow</button>*/}
+                        {/*</div>*/}
                     </section>
                 </div>
-                <div style={{width:'90%', margin:'2vh auto'}}>
+                <div style={{width:'90%', margin:'5vh auto' }}>
                     <table className="table table-dark">
                         <thead>
                         <tr>

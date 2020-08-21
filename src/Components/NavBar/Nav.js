@@ -8,18 +8,18 @@ class Nav extends Component{
                 <a className="navbar-brand" href="#" style={{color:'white'}}>Spotify</a>
 
                 <div className="collapse navbar-collapse" >
-                    <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <NavLink
-                                className="nav-link"
-                                style={{color:'white'}}
-                                to={{
-                                    pathname:'/Home'
-                                }}> Home
+                    {/*<ul className="navbar-nav">*/}
+                    {/*    <li className="nav-item active">*/}
+                    {/*        <NavLink*/}
+                    {/*            className="nav-link"*/}
+                    {/*            style={{color:'white'}}*/}
+                    {/*            to={{*/}
+                    {/*                pathname:'/Home'*/}
+                    {/*            }}> Home*/}
 
-                            </NavLink>
-                        </li>
-                    </ul>
+                    {/*        </NavLink>*/}
+                    {/*    </li>*/}
+                    {/*</ul>*/}
 
                  
                     <ul className="navbar-nav mr-auto">

@@ -9,24 +9,24 @@ import LeftSideBar from "../Components/LeftSideBar/LeftSideBar";
 class Spotify extends Component{
     render() {
         return(
-            <div>
-                <Nav/>
+            <div style={{
+                padding:'10px'
+            }}>
                 <div className='row'>
-
+                    <section className='col-sm-12'>
+                        <Nav/>
+                    </section>
                     <section className='col-sm-2'>
                         <LeftSideBar />
                     </section>
-
                     <section className='col-sm-10'>
                         <Switch>
                          <Route path='/login' component={Login}/>
                          <Route path='/home' component={Home}/>
                         </Switch>
                     </section>
-
                 </div>
-                
-                <SongPlay /> 
+                {/*<SongPlay />*/}
             </div>
 
 

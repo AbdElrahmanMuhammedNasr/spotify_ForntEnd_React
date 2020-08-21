@@ -24,9 +24,6 @@ class LeftSideBar  extends Component{
                             <span style={{color:'white'}} className="d-block">Browse</span>
                         </NavLink>
 
-                        <NavLink to={{pathname:'/radio'}}   >
-                            <span style={{color:'white'}} className="d-block">Radio</span>
-                        </NavLink>
                     </section>
 
 
@@ -40,9 +37,7 @@ class LeftSideBar  extends Component{
 
                     <section style={{padding:'0px 20px'}}>
 
-                    <NavLink to={{pathname:'/forYou'}}   >
-                        <span style={{color:'white'}} className="d-block">For You</span>
-                    </NavLink>
+             
 
                     <NavLink to={{pathname:'/recently'}}  >
                         <span style={{color:'white'}} className="d-block">Recently Played</span>
@@ -50,10 +45,6 @@ class LeftSideBar  extends Component{
 
                     <NavLink to={{pathname:'/LikedSong'}}  >
                         <span style={{color:'white'}} className="d-block">Liked Songs</span>
-                    </NavLink>
-
-                    <NavLink to={{pathname:'/Albums'}}  >
-                        <span style={{color:'white'}} className="d-block" >Albums</span>
                     </NavLink>
 
 
@@ -68,7 +59,7 @@ class LeftSideBar  extends Component{
 
 
 
-                <div style={{margin:'50px 0px'}}>
+                {/* <div style={{margin:'50px 0px'}}>
                     <h3 style={{color:'white'}} className="d-block">PlayLists</h3>
                     <section style={{padding:'0px 20px'}}>
 
@@ -84,7 +75,7 @@ class LeftSideBar  extends Component{
                     </NavLink>
                     </section>
 
-                </div>
+                </div> */}
 
                 
 
